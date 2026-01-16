@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.hero {
+  background: linear-gradient(135deg, #ff4ecd, #6a5cff);
+}
+
+footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+}
+.filter-btn {
+  margin: 5px;
+}
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.25);
+}
+.best-seller {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 12px;
+  z-index: 2;
+}
+.card {
+  position: relative;
+}
+.fade-in {
+  animation: fade 0.8s ease-in;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 220px;      /* atur tinggi */
+  object-fit: cover; /* potong rapi */
+}
+.hero-img {
+  width: 50%;
+  max-height: 50px;
+  object-fit: cover;
+}
+.hero {
+  background-image: url("../css/js/images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.navbar-brand {
+  letter-spacing: 1px;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.nav-link:hover {
+  color: #ff5fa2 !important;
+}
+footer small {
+  font-size: 12px;
+}
+:root {
+  --pink: #ff4fa3;
+  --dark: #111;
+  --light: #f8f9fa;
+}
+
+/* Warna utama */
+.btn-primary {
+  background-color: var(--pink);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e84393;
+}
+
+.product-price {
+  color: var(--pink);
+  font-weight: bold;
+}
+.btn {
+  transition: 0.3s;
+}
+.container {
+  max-width: 1100px;
+}
+h2 {
+  letter-spacing: 1px;
+}
